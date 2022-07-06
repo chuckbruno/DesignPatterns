@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 add_subdirectory("Factory")
 add_subdirectory("Singleton")
 add_subdirectory("AbstractFactory")
+add_subdirectory("ObjectPool")
 
 
 # Add source to this project's executable.
