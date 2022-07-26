@@ -9,7 +9,7 @@ add_subdirectory("Factory")
 add_subdirectory("Singleton")
 add_subdirectory("AbstractFactory")
 add_subdirectory("ObjectPool")
-
+add_subdirectory("Decorator")
 
 # Add source to this project's executable.
 # add_executable (DesignPatterns  )
