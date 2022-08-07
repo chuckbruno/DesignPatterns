@@ -68,3 +68,27 @@ struct AuthorizeWebPage : WebPageDecorator
 		WebPageDecorator::display();
 	}
 };
+
+class A
+{
+public:
+	A(){}
+	void static display()
+	{
+		std::cout << "A" << std::endl;
+	}
+};
+
+class B : A
+{
+public:
+	B():A()
+	{}
+
+	void display()
+	{
+		A::display();
+		std::cout << "B" << std::endl;
+	}
+
+};

@@ -16,5 +16,10 @@ int main() {
 	myPage->display();
 	std::cout << std::endl;
 
+	A::display();
+
+	B b;
+	b.display();
+
 	return 0;
 }
