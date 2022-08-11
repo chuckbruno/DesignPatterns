@@ -9,6 +9,7 @@ struct Hamberger
 	bool hasTomato = false;
 	bool hasMayo = false;
 	bool hasLettuce = false;
+
 };
 
 class HamburgerMaker
@@ -37,6 +38,7 @@ public:
 	Cheeseburger MakeBurger()
 	{
 		Cheeseburger cburger = static_cast<Cheeseburger>(hbamber->MakeBurger());
+		//Hamberger te = hbamber->MakeBurger();
 		return cburger;
 	}
 };

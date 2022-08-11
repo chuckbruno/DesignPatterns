@@ -12,6 +12,7 @@ add_subdirectory("ObjectPool")
 add_subdirectory("Decorator")
 add_subdirectory("Facade")
 add_subdirectory("Adapter")
+add_subdirectory("Adapter2")
 # Add source to this project's executable.
 # add_executable (DesignPatterns  )
 
