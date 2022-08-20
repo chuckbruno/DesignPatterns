@@ -13,6 +13,8 @@ add_subdirectory("Decorator")
 add_subdirectory("Facade")
 add_subdirectory("Adapter")
 add_subdirectory("Adapter2")
+add_subdirectory("Composite")
+add_subdirectory("Proxy")
 # Add source to this project's executable.
 # add_executable (DesignPatterns  )
 
