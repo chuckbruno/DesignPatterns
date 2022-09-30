@@ -15,6 +15,7 @@ add_subdirectory("Adapter")
 add_subdirectory("Adapter2")
 add_subdirectory("Composite")
 add_subdirectory("Proxy")
+add_subdirectory("Chain")
 # Add source to this project's executable.
 # add_executable (DesignPatterns  )
 

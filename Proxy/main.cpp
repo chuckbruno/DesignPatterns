@@ -4,6 +4,8 @@
 
 int main()
 {
+
+	float a = 1.0f;
 	ItemRequest our_store_front;
 	our_store_front.AddInventory(ItemForSale{ 123, 10, 1 });
 	our_store_front.AddInventory(ItemForSale{ 456, 10, 1 });
