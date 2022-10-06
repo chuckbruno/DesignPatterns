@@ -12,10 +12,14 @@ add_subdirectory("ObjectPool")
 add_subdirectory("Decorator")
 add_subdirectory("Facade")
 add_subdirectory("Adapter")
+<<<<<<< HEAD
 add_subdirectory("Adapter2")
 add_subdirectory("Composite")
 add_subdirectory("Proxy")
 add_subdirectory("Chain")
+=======
+add_subdirectory("Composite")
+>>>>>>> 7048a4c (feat: update codes)
 # Add source to this project's executable.
 # add_executable (DesignPatterns  )
 
