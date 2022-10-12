@@ -8,10 +8,8 @@ int main()
 
 	BaseHandler bh;
 	Event et;
-	//BaseHandler::Handle(et);
 	bh.SetNext(handleevent1);
 	// BaseHandler::SetNext(handleevent1);
-
 	handleevent1->SetNext(handleevent2)->SetNext(handleevent3);
 
 	{

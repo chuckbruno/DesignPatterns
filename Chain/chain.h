@@ -21,6 +21,8 @@ public:
 class BaseHandler : public IHandler
 {
 public:
+	int age = 100;
+public:
 	BaseHandler() :next_handler(nullptr) {}
 	IHandler* SetNext(IHandler* handler) override
 	{
@@ -45,6 +47,8 @@ private:
 class HandleEvent1 : public BaseHandler
 {
 public:
+	int age = 200;
+public:
 	Event Handle(Event event) override
 	{
 		if (event.id == 1)
@@ -53,6 +57,7 @@ public:
 			std::cout << "   event message: " << event.message << std::endl;
 			return event;
 		}
+		std::cout << "    age is: " << age << std::endl;
 		return BaseHandler::Handle(event);
 	}
 };
