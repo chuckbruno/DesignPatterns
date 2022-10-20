@@ -18,6 +18,7 @@ add_subdirectory("Chain")
 add_subdirectory("Composite")
 add_subdirectory("State")
 add_subdirectory("Controller")
+add_subdirectory("Template")
 # Add source to this project's executable.
 # add_executable (DesignPatterns  )
 
